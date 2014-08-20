@@ -43,8 +43,7 @@ class LineItemsControllerTest < ActionController::TestCase
     assert_difference('LineItem.count', -1) do
       delete :destroy, id: @line_item
     end
-
-    assert_redirected_to store_path 
+    assert_redirected_to store_path
   end
 
   test "should create line_item via ajax" do
