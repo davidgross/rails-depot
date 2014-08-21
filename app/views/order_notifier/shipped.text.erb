@@ -1,3 +1,8 @@
-OrderNotifier#shipped
+Dear <%= @order.name %>
 
-<%= @greeting %>, find me in app/views/app/views/order_notifier/shipped.text.erb
+This is just to let you konw that we've shipped your recent order:
+
+<%= render @order.line_items -%>
+
+
+

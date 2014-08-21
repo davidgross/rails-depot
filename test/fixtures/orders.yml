@@ -1,11 +1,11 @@
 # Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
 
 one:
-  name: David Gross
-  address: 5568 Meadow View Dr
-  email: me@dmc.io
-  pay_type: Credit Card
-
+  name: "David Gross"
+  address: "5568 Meadow View Dr"
+  email: "me@dmc.io"
+  pay_type: "Credit card"
+  
 two:
   name: MyString
   address: MyText

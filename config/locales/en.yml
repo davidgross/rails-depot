@@ -31,6 +31,6 @@ en:
       address_html:     "Address"
       email:            "Email"
       pay_type:         "Pay with"
-      pay_propmt_html:  "Select a payment method"
+      pay_prompt_html:  "Select a payment method"
       submit:           "Place Order"
   thanks:               "Thank you for your order"
