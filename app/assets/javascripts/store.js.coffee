@@ -5,3 +5,8 @@
 $(document).on "ready page:load" , ->
   $('.store .entry > img').click ->
     $(this).parent().find(':submit').click()
+
+$(document).on "ready page:load" , ->
+  $('.store .entry > h3').click ->
+    $(this).parent().find(':submit').click()
+
